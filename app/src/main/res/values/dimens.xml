@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_eleveation">4dp</dimen>
+    <dimen name="cardview_radius">8dp</dimen>
+    <dimen name="cardview_margin">16dp</dimen>
+</resources>
