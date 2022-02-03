@@ -370,7 +370,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:id="@+id/amazon"
+            android:id="@+id/ab_inbev"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="240dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
@@ -385,7 +385,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/microsoft"
+            android:id="@+id/kbc_bank"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="240dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
@@ -401,7 +401,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="110dp"
             android:gravity="center"
-            android:id="@+id/walmart"
+            android:id="@+id/ageas"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="260dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
@@ -417,7 +417,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="140dp"
             android:gravity="center"
-            android:id="@+id/Costco"
+            android:id="@+id/solvaySA"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="230dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
@@ -433,7 +433,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="170dp"
             android:gravity="center"
-            android:id="@+id/tesla"
+            android:id="@+id/dexia"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="260dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
@@ -448,7 +448,7 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:layout_marginTop="200dp"
-            android:id="@+id/apple"
+            android:id="@+id/ucb"
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="270dp"
@@ -465,15 +465,12 @@
             android:textColor="@color/black"
             android:layout_marginTop="230dp"
             android:gravity="center"
-            android:id="@+id/google"
+            android:id="@+id/umicore"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies_belgium"
             android:fontFamily="@font/italic"
             android:text="@string/umicore"/>
-
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </HorizontalScrollView>

@@ -46,8 +46,6 @@
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
             android:layout_height="250dp"
@@ -460,17 +458,6 @@
             app:layout_constraintTop_toTopOf="@id/companies_australia"
             android:fontFamily="@font/italic"
             android:text="@string/rio_tinto"/>
-
-
-
-
-
-
-
-
-
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </HorizontalScrollView>

@@ -14,9 +14,6 @@
         android:orientation="horizontal"
         tools:context=".EnglandActivity">
 
-
-
-
     <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -397,7 +394,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:id="@+id/BATS"
+            android:id="@+id/bats"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies"
@@ -414,7 +411,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/GlaxoSmithKline"
+            android:id="@+id/glaxo_smith_kline"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="190dp"
             app:layout_constraintTop_toTopOf="@id/companies"
@@ -430,7 +427,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="110dp"
             android:gravity="center"
-            android:id="@+id/AstraZeneca"
+            android:id="@+id/astra_zeneca"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies"
@@ -446,7 +443,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="140dp"
             android:gravity="center"
-            android:id="@+id/hcbc"
+            android:id="@+id/hsbc"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies"
@@ -468,7 +465,6 @@
             app:layout_constraintTop_toTopOf="@id/companies"
             android:fontFamily="@font/italic"
             android:text="@string/diageo"/>
-
 
 
         <androidx.appcompat.widget.AppCompatTextView
