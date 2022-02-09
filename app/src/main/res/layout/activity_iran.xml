@@ -7,6 +7,7 @@
     tools:context=".IranActivity"
     tools:ignore="ScrollViewCount">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -202,8 +203,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -404,7 +403,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:id="@+id/Khalije_iran"
+            android:id="@+id/khalije_iran"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="160dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"
@@ -421,7 +420,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/Mellat_iran"
+            android:id="@+id/mellat_iran"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="220dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"
@@ -437,7 +436,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="110dp"
             android:gravity="center"
-            android:id="@+id/Melli_bank"
+            android:id="@+id/melli_bank"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="180dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"
@@ -452,7 +451,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="140dp"
             android:gravity="center"
-            android:id="@+id/Ghadir_iran"
+            android:id="@+id/ghadir_iran"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="180dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"
@@ -467,7 +466,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="170dp"
             android:gravity="center"
-            android:id="@+id/Parsian_Bank"
+            android:id="@+id/parsian_bank"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"
@@ -482,7 +481,7 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:layout_marginTop="200dp"
-            android:id="@+id/Tejarat_Bank"
+            android:id="@+id/tejarat_bank"
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
@@ -499,7 +498,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="230dp"
             android:gravity="center"
-            android:id="@+id/Parsian_Oil"
+            android:id="@+id/parsian_oil"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_iran"

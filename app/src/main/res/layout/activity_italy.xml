@@ -25,8 +25,6 @@
                 android:orientation="horizontal"
                 tools:context=".ItalyActivity">
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -153,9 +151,7 @@
                 tools:context=".ItalyActivity">
 
 
-
-
-            <androidx.appcompat.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/universities"
@@ -165,8 +161,6 @@
             android:fontFamily="@font/italic"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -183,7 +177,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -204,8 +197,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -224,8 +215,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -406,7 +395,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:id="@+id/Assicurazioni_Generali"
+            android:id="@+id/assicurazioni_generali"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="160dp"
             app:layout_constraintTop_toTopOf="@id/companies_italy"
@@ -423,7 +412,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/Exor"
+            android:id="@+id/exor"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies_italy"
@@ -439,7 +428,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="110dp"
             android:gravity="center"
-            android:id="@+id/UniCredit"
+            android:id="@+id/uni_credit"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="230dp"
             app:layout_constraintTop_toTopOf="@id/companies_italy"
@@ -469,7 +458,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="170dp"
             android:gravity="center"
-            android:id="@+id/Intesa_Sanpaolo"
+            android:id="@+id/intesa_sanpaolo"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_italy"
@@ -484,7 +473,7 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:layout_marginTop="200dp"
-            android:id="@+id/Poste_italiane"
+            android:id="@+id/poste_italiane"
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
@@ -501,14 +490,12 @@
             android:textColor="@color/black"
             android:layout_marginTop="230dp"
             android:gravity="center"
-            android:id="@+id/Generali"
+            android:id="@+id/generali"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="240dp"
             app:layout_constraintTop_toTopOf="@id/companies_italy"
             android:fontFamily="@font/italic"
             android:text="@string/Generali"/>
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

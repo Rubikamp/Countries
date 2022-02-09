@@ -201,8 +201,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -221,8 +219,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -244,8 +240,6 @@
         </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
-
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -275,7 +269,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/tokyo"/>
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -289,7 +282,6 @@
             app:layout_constraintTop_toTopOf="@id/cities_japan"
             android:fontFamily="@font/italic"
             android:text="@string/Kyoto"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -405,7 +397,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:id="@+id/Toyota_Motor"
+            android:id="@+id/toyota_motor"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
@@ -422,7 +414,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/Mitsubishi"
+            android:id="@+id/mitsubishi"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
@@ -438,7 +430,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="110dp"
             android:gravity="center"
-            android:id="@+id/Honda_Motor"
+            android:id="@+id/honda_motor"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="210dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
@@ -453,7 +445,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="140dp"
             android:gravity="center"
-            android:id="@+id/Itochu"
+            android:id="@+id/itochu"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="230dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
@@ -468,7 +460,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="170dp"
             android:gravity="center"
-            android:id="@+id/Sony"
+            android:id="@+id/sony"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="230dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
@@ -483,7 +475,7 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:layout_marginTop="200dp"
-            android:id="@+id/Hitachi"
+            android:id="@+id/hitachi"
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="230dp"
@@ -500,17 +492,12 @@
             android:textColor="@color/black"
             android:layout_marginTop="230dp"
             android:gravity="center"
-            android:id="@+id/Nippon_Telegraph"
+            android:id="@+id/nippon_telegraph"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="200dp"
             app:layout_constraintTop_toTopOf="@id/companies_japan"
             android:fontFamily="@font/italic"
             android:text="@string/nippon_telegraph"/>
-
-
-
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

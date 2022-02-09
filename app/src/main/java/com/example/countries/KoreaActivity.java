@@ -1,14 +1,17 @@
 package com.example.countries;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.appcompat.widget.AppCompatTextView;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+
 public class KoreaActivity extends AppCompatActivity {
     AppCompatTextView samsung, skHynix, lgChem, naver, hyundai, coupang, kakao;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,5 +39,6 @@ public class KoreaActivity extends AppCompatActivity {
 
         kakao = findViewById(R.id.kakao);
         kakao.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.KAKO_URL))));
+
     }
 }

@@ -56,8 +56,6 @@
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
             android:layout_height="250dp"

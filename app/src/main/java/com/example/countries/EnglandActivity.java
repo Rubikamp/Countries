@@ -7,27 +7,30 @@ import androidx.appcompat.widget.AppCompatTextView;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import com.bumptech.glide.Glide;
 
 public class EnglandActivity extends AppCompatActivity {
     AppCompatTextView bats, glaxoSmith, astraZenca, hsbc, diageo, shell, unilever;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_england);
 
-        bats = findViewById(R.id.BATS);
+        bats = findViewById(R.id.bats);
         bats.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.BATS_URL))));
 
-        glaxoSmith = findViewById(R.id.GlaxoSmithKline);
+        glaxoSmith = findViewById(R.id.glaxo_smith_kline);
         glaxoSmith.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.GLAXOSMITHKLINE_URL))));
 
-        astraZenca = findViewById(R.id.AstraZeneca);
+        astraZenca = findViewById(R.id.astra_zeneca);
         astraZenca.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.ASTRAZENECA_URL))));
 
-        hsbc = findViewById(R.id.hcbc);
+        hsbc = findViewById(R.id.hsbc);
         hsbc.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.HCBC_URL))));
 
         diageo = findViewById(R.id.diageo);
@@ -40,34 +43,6 @@ public class EnglandActivity extends AppCompatActivity {
         unilever.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.UNILEVER_URL))));
 
 
-
-
-        AppCompatImageView imageViewGlide=findViewById(R.id.bus_uk);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.bridge_uk);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.castle_uk);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.rocks_uk);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.Carousel_uk);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.imperial);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.college_london);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.oxford);
-        Glide.with(this).load("").into(imageViewGlide);
-
-        imageViewGlide = findViewById(R.id.manchester);
-        Glide.with(this).load("").into(imageViewGlide);
     }
 
 }

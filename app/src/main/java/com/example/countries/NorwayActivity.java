@@ -1,20 +1,22 @@
 package com.example.countries;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.appcompat.widget.AppCompatTextView;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+
 public class NorwayActivity extends AppCompatActivity {
 
-    AppCompatTextView equinor, telenor, aker, orkla, Kvarner, total_norge, norsk;
 
-    @Override
+    AppCompatTextView equinor, telenor, aker, orkla, Kvarner, total_norge, norsk;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_norway);
+
 
         equinor = findViewById(R.id.equinor);
         equinor.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.EQUINOR_URL))));
@@ -31,7 +33,7 @@ public class NorwayActivity extends AppCompatActivity {
         Kvarner = findViewById(R.id.Kvarner);
         Kvarner.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.KVARNER_URL))));
 
-        total_norge = findViewById(R.id.Total_Norge);
+        total_norge = findViewById(R.id.total_norge);
         total_norge.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.TOTAL_NORGE_URL))));
 
         norsk = findViewById(R.id.norsk);

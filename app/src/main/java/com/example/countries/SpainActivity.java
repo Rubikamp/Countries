@@ -1,14 +1,17 @@
 package com.example.countries;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.appcompat.widget.AppCompatTextView;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+
 public class SpainActivity extends AppCompatActivity {
     AppCompatTextView inditex, iberdrola, santander, amadeus, naturgy;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +25,14 @@ public class SpainActivity extends AppCompatActivity {
         iberdrola = findViewById(R.id.iberdrola);
         iberdrola.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.IBERDROLA_URL))));
 
-        santander = findViewById(R.id.Santander);
+        santander = findViewById(R.id.santander);
         santander.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.SANTANDER_URL))));
 
-        amadeus = findViewById(R.id.Amadeus);
+        amadeus = findViewById(R.id.amadeus);
         amadeus.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.AMDEUS_URL))));
 
         naturgy = findViewById(R.id.naturgy);
         naturgy.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.NATURGY_URL))));
+
     }
 }

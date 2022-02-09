@@ -25,8 +25,6 @@
                 android:orientation="horizontal"
                 tools:context=".NorwayActivity">
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +36,6 @@
             android:layout_marginStart="10dp"
             app:layout_constraintStart_toStartOf="parent"
             android:textColor="@color/black"/>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
@@ -57,7 +54,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
@@ -200,8 +196,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -220,8 +214,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -350,8 +342,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/alesund"/>
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -396,7 +386,6 @@
             app:layout_constraintTop_toTopOf="parent"
             android:fontFamily="@font/bold3"/>
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -411,8 +400,6 @@
             app:layout_constraintTop_toTopOf="@id/companies_norway"
             android:fontFamily="@font/italic"
             android:text="@string/equinor"/>
-
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -445,8 +432,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/aker"/>
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -472,11 +457,10 @@
             android:gravity="center"
             android:id="@+id/Kvarner"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="220dp"
+            android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies_norway"
             android:fontFamily="@font/italic"
             android:text="@string/Aker"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -485,14 +469,13 @@
             android:textSize="24sp"
             android:textColor="@color/black"
             android:layout_marginTop="200dp"
-            android:id="@+id/Total_Norge"
+            android:id="@+id/total_norge"
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="200dp"
             app:layout_constraintTop_toTopOf="@id/companies_norway"
             android:fontFamily="@font/italic"
             android:text="@string/total_e_p_norge"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -508,8 +491,6 @@
             app:layout_constraintTop_toTopOf="@id/companies_norway"
             android:fontFamily="@font/italic"
             android:text="@string/norsk"/>
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

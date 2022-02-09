@@ -37,8 +37,6 @@
             app:layout_constraintStart_toStartOf="parent"
             android:textColor="@color/black"/>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
             android:layout_height="250dp"
@@ -151,9 +149,7 @@
                 tools:context=".KoreaActivity">
 
 
-
-
-            <androidx.appcompat.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/universities"
@@ -163,7 +159,6 @@
             android:fontFamily="@font/italic"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -181,7 +176,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -202,8 +196,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -222,8 +214,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -245,8 +235,6 @@
         </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
-
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -291,7 +279,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/Busan"/>
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -305,7 +292,6 @@
             app:layout_constraintTop_toTopOf="@id/cities_korea"
             android:fontFamily="@font/italic"
             android:text="@string/gyeongju"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -351,8 +337,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/suwon"/>
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -366,7 +350,6 @@
             app:layout_constraintTop_toTopOf="@id/cities_korea"
             android:fontFamily="@font/italic"
             android:text="@string/jeonju"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -382,7 +365,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/jeju_si"/>
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -396,7 +378,6 @@
             android:layout_marginTop="670dp"
             app:layout_constraintTop_toTopOf="parent"
             android:fontFamily="@font/bold3"/>
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -476,7 +457,6 @@
             android:fontFamily="@font/italic"
             android:text="@string/hyundai"/>
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -507,7 +487,6 @@
             app:layout_constraintTop_toTopOf="@id/companies_korea"
             android:fontFamily="@font/italic"
             android:text="@string/kakao"/>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
