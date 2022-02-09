@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources >
     <string name="app_name">Countries</string>
     <string name="choose_country">choose country</string>
     <string name="america_flag">america_flag</string>
@@ -210,7 +210,6 @@
     <string name="Haarlem">•Haarlem</string>
     <string name="Royal">•Royal Dutch Shell</string>
     <string name="ING">•ING</string>
-    <string name="unilever" tools:ignore="DuplicateDefinition">•Unilever</string>
     <string name="aegon">•Aegon</string>
     <string name="rabobank">•Rabobank</string>
     <string name="Philips">•Philips</string>

@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".GermanyActivity">
+    tools:context=".GermanyActivity"
+    tools:ignore="ScrollViewCount">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:orientation="horizontal"
-        tools:context=".GermanyActivity">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:id="@+id/scrool_entertaiment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".GermanyActivity">
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                tools:context=".GermanyActivity">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -121,6 +131,23 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/scrool_unversiteies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scrool_entertaiment"
+            tools:context=".GermanyActivity">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                tools:context=".GermanyActivity">
 
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -128,7 +155,7 @@
             android:layout_height="wrap_content"
             android:text="@string/universities"
             android:textSize="26sp"
-            android:layout_marginTop="320dp"
+            android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:fontFamily="@font/italic"
             app:layout_constraintTop_toTopOf="parent"
@@ -137,7 +164,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="80dp"
             app:layout_constraintTop_toTopOf="parent"
             app:cardCornerRadius="18dp"
             app:cardElevation="@dimen/cardElevation"
@@ -155,7 +182,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="80dp"
             app:layout_constraintTop_toTopOf="parent"
             app:cardCornerRadius="18dp"
             app:cardElevation="@dimen/cardElevation"
@@ -176,7 +203,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="80dp"
             app:layout_constraintTop_toTopOf="parent"
             app:cardCornerRadius="18dp"
             app:cardElevation="@dimen/cardElevation"
@@ -197,7 +224,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="80dp"
             app:layout_constraintTop_toTopOf="parent"
             app:cardCornerRadius="18dp"
             app:cardElevation="@dimen/cardElevation"
@@ -212,6 +239,9 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
 
 
 
@@ -387,7 +417,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/microsoft"
+            android:id="@+id/DIAMLER"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="250dp"
             app:layout_constraintTop_toTopOf="@id/companies_germany"
@@ -474,9 +504,5 @@
 
 
 
-
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-</HorizontalScrollView>
+</androidx.core.widget.NestedScrollView>
