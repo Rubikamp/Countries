@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="title_country" type="id">title_country</item>
+    <item name="cardView_america" type="id">cardView_america</item>
+    <item name="imageview_america" type="id">imageview_america</item>
+    <item name="cardView_belgium" type="id">cardView_belgium</item>
+    <item name="cardView_brazil" type="id">cardView_brazil</item>
+    <item name="ImageView_brazil" type="id">ImageView_brazil</item>
+</resources>
