@@ -56,7 +56,6 @@
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
             android:layout_height="250dp"
@@ -75,7 +74,6 @@
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
             android:layout_height="250dp"
@@ -93,8 +91,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"/>
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="210dp"
@@ -149,7 +145,6 @@
         android:orientation="horizontal"
         tools:context=".BelgiumActivity">
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -199,7 +194,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -218,7 +212,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
 
 
         <androidx.cardview.widget.CardView
@@ -241,8 +234,6 @@
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
-
-
 
 
         <androidx.appcompat.widget.AppCompatTextView

@@ -30,7 +30,6 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,7 +39,6 @@
             tools:context=".FirstActivity"
             tools:ignore="MissingConstraints">
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_america"
@@ -137,7 +135,6 @@
                 android:src="@drawable/canada_flag" />
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_china"
             android:layout_width="350dp"
@@ -155,7 +152,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/china_flag" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_french"
@@ -175,7 +171,6 @@
                 android:src="@drawable/french_flag" />
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_germany"
             android:layout_width="350dp"
@@ -194,7 +189,6 @@
                 android:src="@drawable/germany_flag" />
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_iran"
             android:layout_width="350dp"
@@ -212,7 +206,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/iran_flag" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_japan"
@@ -366,8 +359,6 @@
                 android:src="@drawable/switzerland_flag" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_thailand"
             android:layout_width="350dp"
@@ -385,7 +376,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/thailand_flag" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_turkey"
