@@ -159,8 +159,6 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -198,8 +196,6 @@
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
             android:layout_height="250dp"
@@ -218,8 +214,6 @@
                 app:srcCompat="@drawable/ic_launcher_background"
                 tools:ignore="MissingConstraints" />
         </androidx.cardview.widget.CardView>
-
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -241,10 +235,6 @@
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
     </HorizontalScrollView>
-
-
-
-
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"

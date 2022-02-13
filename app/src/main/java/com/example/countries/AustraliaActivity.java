@@ -1,13 +1,12 @@
 package com.example.countries;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
 
 import com.bumptech.glide.Glide;
 
@@ -20,8 +19,35 @@ public class AustraliaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_australia);
 
-        telstra = findViewById(R.id.telstra);
+        AppCompatImageView sidney = findViewById(R.id.sidney);
+        Glide.with(this).load(PicLinks.SIDNEY_AUS_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(sidney);
 
+        AppCompatImageView darkSea = findViewById(R.id.dark_sea);
+        Glide.with(this).load(PicLinks.DARK_SEA_AUS_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(darkSea);
+
+        AppCompatImageView bridgeAus = findViewById(R.id.bridge_australia);
+        Glide.with(this).load(PicLinks.BRIDGE_AUS_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(bridgeAus);
+
+        AppCompatImageView streetAus = findViewById(R.id.street_australia);
+        Glide.with(this).load(PicLinks.STREET_AUS_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(streetAus);
+
+        AppCompatImageView fallAus = findViewById(R.id.fall_australia);
+        Glide.with(this).load(PicLinks.FALL_AUS_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(fallAus);
+
+        AppCompatImageView monashUni = findViewById(R.id.monash);
+        Glide.with(this).load(PicLinks.MONASH_UNI_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(monashUni);
+
+        AppCompatImageView mellburneUni = findViewById(R.id.mellburne);
+        Glide.with(this).load(PicLinks.MELLBURNE_UNI_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(mellburneUni);
+
+        AppCompatImageView sydneyUni = findViewById(R.id.sydney);
+        Glide.with(this).load(PicLinks.SYDNEY_UNI_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(sydneyUni);
+
+        AppCompatImageView walesUni = findViewById(R.id.wales);
+        Glide.with(this).load(PicLinks.WALES_UNI_URL).placeholder(R.drawable.ic_launcher_background).error(R.drawable.broken_image).into(walesUni);
+
+
+        telstra = findViewById(R.id.telstra);
         telstra.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PicLinks.TELSTRA_URL))));
 
         anz = findViewById(R.id.anz);

@@ -10,6 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <HorizontalScrollView
             android:id="@+id/scrool_entertaiment"
             android:layout_width="match_parent"
@@ -27,112 +28,115 @@
                 tools:context=".GermanyActivity">
 
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/entertainment_venues"
-            android:textSize="22sp"
-            android:layout_marginTop="10dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:fontFamily="@font/italic"
-            android:layout_marginStart="10dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:textColor="@color/black"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/italic"
+                    android:text="@string/entertainment_venues"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="210dp"
-            android:layout_height="250dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="10dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="20dp"
-            android:layout_marginTop="50dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="210dp"
-                android:id="@+id/castle_germany"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
 
-
-
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="210dp"
-            android:layout_height="250dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="240dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="20dp"
-            android:layout_marginTop="50dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="210dp"
-                android:id="@+id/place_germany"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-        </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/castle_germany"
+                        android:layout_width="210dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="210dp"
-            android:layout_height="250dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="470dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="20dp"
-            android:layout_marginTop="50dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="210dp"
-                android:id="@+id/bridge_germany"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/place_germany"
+                        android:layout_width="210dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="210dp"
-            android:layout_height="250dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="700dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="20dp"
-            android:layout_marginTop="50dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="210dp"
-                android:id="@+id/dark_bridge_germany"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="470dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="210dp"
-            android:layout_height="250dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="930dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="20dp"
-            android:layout_marginTop="50dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="210dp"
-                android:id="@+id/blue_castle_germany"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_background"/>
-        </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/bridge_germany"
+                        android:layout_width="210dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="700dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/dark_bridge_germany"
+                        android:layout_width="210dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="210dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="930dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/blue_castle_germany"
+                        android:layout_width="210dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
 
@@ -152,347 +156,349 @@
                 tools:context=".GermanyActivity">
 
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/universities"
-            android:textSize="26sp"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/black"
-            android:fontFamily="@font/italic"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/italic"
+                    android:text="@string/universities"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="390dp"
-            android:layout_height="250dp"
-            android:layout_marginTop="80dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="@dimen/cardElevation"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="420dp"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/heide_germany"
-                app:srcCompat="@drawable/ic_launcher_background"
-                tools:ignore="MissingConstraints" />
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="80dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="@dimen/cardElevation"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/heide_germany"
+                        android:layout_width="420dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_launcher_background"
+                        tools:ignore="MissingConstraints" />
+                </androidx.cardview.widget.CardView>
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="390dp"
-            android:layout_height="250dp"
-            android:layout_marginTop="80dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="@dimen/cardElevation"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="410dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="420dp"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/berlin_germany"
-                app:srcCompat="@drawable/ic_launcher_background"
-                tools:ignore="MissingConstraints" />
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="410dp"
+                    android:layout_marginTop="80dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="@dimen/cardElevation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="390dp"
-            android:layout_height="250dp"
-            android:layout_marginTop="80dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="@dimen/cardElevation"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="820dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="420dp"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/munchan_germany"
-                app:srcCompat="@drawable/ic_launcher_background"
-                tools:ignore="MissingConstraints" />
-        </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/berlin_germany"
+                        android:layout_width="420dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_launcher_background"
+                        tools:ignore="MissingConstraints" />
+                </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="390dp"
-            android:layout_height="250dp"
-            android:layout_marginTop="80dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="@dimen/cardElevation"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="1230dp"
-            tools:ignore="MissingConstraints">
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="420dp"
-                android:layout_height="250dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/frie_germany"
-                app:srcCompat="@drawable/ic_launcher_background"
-                tools:ignore="MissingConstraints" />
-        </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="820dp"
+                    android:layout_marginTop="80dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="@dimen/cardElevation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/munchan_germany"
+                        android:layout_width="420dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_launcher_background"
+                        tools:ignore="MissingConstraints" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="390dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="1230dp"
+                    android:layout_marginTop="80dp"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="@dimen/cardElevation"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/frie_germany"
+                        android:layout_width="420dp"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_launcher_background"
+                        tools:ignore="MissingConstraints" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
 
 
-
-
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cities_germany"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="34sp"
-            android:textColor="@color/black"
-            android:id="@+id/cities_germany"
-            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="20dp"
             android:layout_marginTop="670dp"
-            app:layout_constraintTop_toTopOf="parent"
             android:fontFamily="@font/bold3"
-            android:text="@string/cities"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
+            android:text="@string/cities"
             android:textColor="@color/black"
-            android:layout_marginTop="50dp"
-            android:gravity="center"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="45dp"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/Berlin"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="80dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="35dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/hamburg"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="110dp"
-            android:gravity="center"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="45dp"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/munich"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="140dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="40dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/Frankfurt"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="170dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="30dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/d_sseldorf"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="200dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="45dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/Cologne"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="230dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="45dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/leipzig"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="260dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="40dp"
-            android:gravity="center"
-            app:layout_constraintTop_toTopOf="@id/cities_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/stuttgart"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:text="@string/companies"
             android:textSize="34sp"
-            android:textColor="@color/black"
-            android:id="@+id/companies_germany"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/Berlin"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/hamburg"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/munich"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/Frankfurt"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/d_sseldorf"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/Cologne"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="230dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/leipzig"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/stuttgart"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cities_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/companies_germany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="180dp"
             android:layout_marginTop="670dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:fontFamily="@font/bold3"/>
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
+            android:fontFamily="@font/bold3"
+            android:text="@string/companies"
             android:textColor="@color/black"
-            android:layout_marginTop="50dp"
-            android:gravity="center"
-            android:id="@+id/volkswagen"
+            android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="220dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/volkswagen"/>
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/volkswagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center"
+            android:text="@string/volkswagen"
             android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/DIAMLER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:gravity="center"
-            android:id="@+id/DIAMLER"/>
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="110dp"
-            android:gravity="center"
             android:id="@+id/allianz"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="260dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/Allianz"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="140dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/italic"
             android:gravity="center"
+            android:text="@string/Allianz"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/bmw"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="260dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
-            android:fontFamily="@font/italic"
-            android:text="@string/BMW"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="170dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/italic"
             android:gravity="center"
+            android:text="@string/BMW"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/siemens"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="260dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            android:layout_marginTop="170dp"
             android:fontFamily="@font/italic"
-            android:text="@string/Siemens"/>
+            android:gravity="center"
+            android:text="@string/Siemens"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="200dp"
             android:id="@+id/bosch"
-            android:gravity="center"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="230dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            android:layout_marginTop="200dp"
             android:fontFamily="@font/italic"
-            android:text="@string/bosch_group"/>
+            android:gravity="center"
+            android:text="@string/bosch_group"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/uniper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="230dp"
-            android:gravity="center"
-            android:id="@+id/uniper"
-            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="260dp"
-            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            android:layout_marginTop="230dp"
             android:fontFamily="@font/italic"
-            android:text="@string/Uniper"/>
+            android:gravity="center"
+            android:text="@string/Uniper"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/companies_germany"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

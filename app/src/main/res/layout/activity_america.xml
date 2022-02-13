@@ -217,7 +217,6 @@
                         tools:ignore="MissingConstraints" />
                 </androidx.cardview.widget.CardView>
 
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="390dp"
                     android:layout_height="250dp"
